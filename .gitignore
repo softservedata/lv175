@@ -24,6 +24,11 @@ hs_err_pid*
 /.project
 /.checkstyle
 
+# exclude idea workspace 18.02.2016 amykyttc
+.idea/
+/out/
+*.iml
+
 # ignore doc/notes.txt, but not doc/info/arch.txt
 # doc/*.txt
 
