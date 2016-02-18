@@ -1,7 +1,9 @@
+package com.softserv.anpavlo;
 
 public class ReverseNumbersOrder {
 	
 	public static String getNumbersInReverseOrder(Integer n){//123456789
+		System.out.println("ReverseNumbersOrder of "+n);
 		
 		int reverse = n%10;
 		String result = ""+reverse;
