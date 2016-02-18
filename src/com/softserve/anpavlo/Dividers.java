@@ -4,8 +4,8 @@ public class Dividers {
 	
 	public static void getDividers(Integer n){
 		int i = 1;
-		System.out.println("Dividers of "+n);		
-		while (i<=n/2){// ä³ëèìî íà 2 îñê³ëüêè íàéá³ëüøèé ä³ëüíèê êð³ì ñàìîãî ÷èñëà º éîãî ïîëîâèíà
+		System.out.println("Dividers of "+n);
+		while (i<=n/2){//Ð´Ñ–Ð»Ð¸Ð¼Ð¾ Ð½Ð° 2 Ð¾ÑÐºÑ–Ð»ÑŒÐºÐ¸ Ð½Ð°Ð¹Ð±Ñ–Ð»ÑŒÑˆÐ¸Ð¹ Ð´Ñ–Ð»ÑŒÐ½Ð¸Ðº ÐºÑ€Ñ–Ð¼ ÑÐ°Ð¼Ð¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð° Ñ” Ð¹Ð¾Ð³Ð¾ Ð¿Ð¾Ð»Ð¾Ð²Ð¸Ð½Ð°
 			if (n%i==0){
 				System.out.println(i);
 			}
