@@ -1,30 +1,32 @@
 package com.softserve.edu;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 public class CalcTest {
 
 	@BeforeClass
-	public static void setUpBeforeClass() throws Exception {
+	//public static void setUpBeforeClass() throws Exception {
+    public void setUpBeforeClass() throws Exception {
 		System.out.println("@BeforeClass");
 	}
 
 	@AfterClass
-	public static void tearDownAfterClass() throws Exception {
+	//public static void tearDownAfterClass() throws Exception {
+	public void tearDownAfterClass() throws Exception {
 		System.out.println("@AfterClass");
 	}
 
-	@Before
+	@BeforeMethod
 	public void setUp() throws Exception {
 		System.out.println("@Before");
 	}
 
-	@After
+	@AfterMethod
 	public void tearDown() throws Exception {
 		System.out.println("@After");
 	}
