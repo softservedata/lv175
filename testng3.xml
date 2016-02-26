@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+	<parameter name="number0" value="0" />
 	<parameter name="number1" value="1" />
-	<parameter name="testurl"
-		value="http://java.training.local:8080/registrator/login" />
+	<parameter name="number-1" value="-1" />
 	<!-- 3 ERROR 5 WARNING 7 INFO -->
 	<test verbose="5" name="Test">
-		<parameter name="number" value="2" />
+		<parameter name="number2" value="2" />
 		<parameter name="number3" value="3" />
+		<parameter name="number4" value="4" />
+		<parameter name="number5" value="5" />
 		<classes>
-			<class name="com.softserve.edu.TestNGTest10">
-				<methods>
-					<include name="method2" />
-					<include name="method1" />
-					<include name="method3" />
-				</methods>
-			</class>
+			<class name="com.softserve.edu.TestNGTest11" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
