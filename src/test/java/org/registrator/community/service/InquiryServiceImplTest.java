@@ -37,7 +37,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class InquiryServiceTest {
+public class InquiryServiceImplTest {
 	UserRepository userRep = mock(UserRepository.class);
 	InquiryRepository inqRep = mock(InquiryRepository.class);
 	ResourceRepository resRep = mock(ResourceRepository.class);
